@@ -1,8 +1,23 @@
 /* Starting my CSS page */
 
+div {
+    border: 5px solid blue;
+    margin-bottom: 10px;
+
+}
+
 .hospital {
     height: auto; 
     width: auto; 
     max-width: 300px; 
     max-height: 300px;
+}
+
+header {
+    height: 300px;
+}
+
+.header_background {
+    background-image: url(../images/Header_img.jpg);
+    background-size: contain;
 }
